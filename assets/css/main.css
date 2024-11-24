@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+/*Основа*/
+html, body {
+    height: 100%;
+}
+body {
+    min-width: 320px;
+    color: #000000;
+}
+a {
+    color: #4B5258;
+    text-decoration: none;
+}
+.header-top-phone a:hover {
+    text-decoration: underline;
+}
+.wrapper {
+    min-height: 100%;
+    flex-direction: column;
+}
+main.main {
+    flex: 1 1 auto;
+}
+
+
+/*Хэдр*/
+.header-top {
+    letter-spacing: .1rem;
+}
+
+
+/*Бургер меню*/
+.navbar {
+    background-color: #ffffff !important;
+    border-top: 1px solid #000000;
+    box-shadow: 0 10px 10px rgb(0, 0, 0, .2);
+    letter-spacing: .1rem;
+}
+.nav-link {
+    color: #000000;
+}
+.nav-link:hover {
+    color: rgb(64, 66, 66);
+}
+
+
+/*Начальный экран*/
+.header-image img {
+    width: 100%;
+    height: auto;
+}
+.header-content {
+    top: 18%;
+}
+.maintext_1 {
+    margin-left: 5vw;
+    font-size: 2.5vw;
+}
+.maintext_2 {
+    font-size: 1.8vw;
+    margin-left: 6vw;
+}
+
+
+
